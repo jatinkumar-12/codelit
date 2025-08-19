@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jatinkumar-12/codelit/static/css/main.8070f8de.css",
+    "main.js": "/jatinkumar-12/codelit/static/js/main.74d58dd2.js",
+    "static/js/453.ffd317f4.chunk.js": "/jatinkumar-12/codelit/static/js/453.ffd317f4.chunk.js",
+    "static/media/employee.jpg": "/jatinkumar-12/codelit/static/media/employee.0a7bbb168fb532518922.jpg",
+    "static/media/about-image.jpg": "/jatinkumar-12/codelit/static/media/about-image.1f12f4e44a7c7c5b91d0.jpg",
+    "static/media/our-story-image.jpg": "/jatinkumar-12/codelit/static/media/our-story-image.a9cc809b185693635dec.jpg",
+    "static/media/Codelit_Logo.png": "/jatinkumar-12/codelit/static/media/Codelit_Logo.c1af65492acbd960d503.png",
+    "index.html": "/jatinkumar-12/codelit/index.html",
+    "main.8070f8de.css.map": "/jatinkumar-12/codelit/static/css/main.8070f8de.css.map",
+    "main.74d58dd2.js.map": "/jatinkumar-12/codelit/static/js/main.74d58dd2.js.map",
+    "453.ffd317f4.chunk.js.map": "/jatinkumar-12/codelit/static/js/453.ffd317f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8070f8de.css",
+    "static/js/main.74d58dd2.js"
+  ]
+}
