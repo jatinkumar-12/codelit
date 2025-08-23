@@ -15,7 +15,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      <Router basename="/codelit">
+      <Router>
         <Navbar />
 
         <Routes>
