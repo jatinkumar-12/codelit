@@ -1,0 +1,257 @@
+/* codelit.css */
+
+.about {
+  width: 70rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem auto 1rem;
+}
+
+.about__pera {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.about__heading {
+  text-align: center;
+  font-size: 5rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+  margin: 4rem auto 3rem;
+  /* font-weight: 600; */
+}
+
+.about__designbox {
+  width: 220px;
+  height: 90px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  margin-bottom: 8rem;
+  transform: rotate(12deg) translateX(8rem);
+}
+
+.about__small-heading {
+  font-size: 2.4rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.about__small-pera {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 3rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+}
+
+.about__small-heading-pera {
+  font-size: 1.6rem;
+  color: var(--black);
+  font-family: var(--secondayfont);
+  text-indent: 12rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about__small-heading-pera span {
+  color: var(--primary);
+}
+
+.about__image-box {
+  width: 100%;
+  height: 20rem;
+  border-radius: 16px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+.about__image {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.about__our-story-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.about__our-story-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about__our-story-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.about__our-story-box-heading {
+  font-size: 2rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about__our-story-box-pera {
+  font-size: 1.2rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+.about__our-story-box > img {
+  width: 28rem;
+  height: auto;
+}
+
+.about__our-team-heading {
+  margin-bottom: 2rem;
+}
+
+.about__our-team-heading-pera {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  font-family: var(--secondayfont);
+  font-size: 1.2rem;
+}
+
+.about__employess-card-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  line-height: 1.5;
+}
+
+.about__employee-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__employee-card-image {
+  overflow: hidden;
+  width: 100%;
+  height: 18rem;
+  border-radius: 16px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about__employee-card-image > img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.about__employee-card > h1 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+.about__employee-card > p {
+  font-size: 0.8rem;
+  color: var(--black);
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+.about__employee-card > h2 {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 400;
+}
+.about__employee-card > .pera {
+  font-size: 1.1rem;
+  color: var(--black);
+  text-align: center;
+  font-weight: 500;
+}
+
+.about__skillcard-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.about__skillcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about__skillcard > h2 {
+  color: var(--primary);
+  font-size: 1.4rem;
+  width: 60%;
+  margin: 0 auto 2rem;
+  font-weight: 600;
+}
+
+.about__skillcard > p {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.button-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 26rem;
+  margin: auto;
+  height: fit-content;
+  background: transparent;
+  margin-bottom: 8rem;
+}
+
+.about__btn {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 1.6rem;
+  border-radius: 50px;
+  border: 1px solid black;
+  transition: all 0.4s ease;
+}
+
+.about__btn:nth-child(1) {
+  background: var(--black);
+  color: var(--white);
+}
+
+.about__btn:nth-child(2) {
+  background: var(--white);
+  color: var(--black);
+}
+.about__btn:nth-child(2):hover {
+  background: var(--black);
+  color: var(--white);
+}

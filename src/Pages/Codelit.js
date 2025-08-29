@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Codelit.css";
 
 // import images
 

@@ -1,3 +1,4 @@
+import "../styles/Home.css";
 import video from "../assets/video/reel.mp4";
 
 export default function Home() {
@@ -5,41 +6,25 @@ export default function Home() {
     <>
       <section id="Main">
         <div className="headingBox">
-          <div className="topHeading">
-            <span>WE CRAFT</span>
-          </div>
-          <p className="topPera">
-            <span>Story, Not Just Content</span>
-          </p>
+          <div className="topHeading">WE CRAFT</div>
+          <p className="topPera">Story, Not Just Content</p>
         </div>
         <div className="main__row">
           <div className="main__col">
-            <p className="main__col-pera">Watch Reel</p>
-            <video
-              id="myVideo"
-              className="main__col-video"
-              autoplay
-              playsInline
-              loop
-              controls
-            >
+            <p className="main__col-pera reelText">Watch Reel</p>
+            <video className="main__col-video" autoplay playsInline controls>
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="main__col">
-            <div className="main__col-color-pera">
-              <span>CodeLit</span>
-            </div>
+            <div className="main__col-color-pera">CodeLit</div>
             <h1 className="main__col-heading">
-              <span>THINKING BOLDLY.</span>
-              <span> CRAFTING VISUALLY</span>
+              THINKING BOLDLY.
+              <br /> CRAFTING VISUALLY
             </h1>
             <p className="main__col-pera">
-              <span>
-                {" "}
-                Not just makers. Campaign creators. Visual disruptors.
-              </span>
+              Not just makers. Campaign creators. Visual disruptors.
             </p>
             <button className="fancy-button">Explore All Works</button>
           </div>
